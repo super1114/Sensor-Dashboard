@@ -3,6 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![alt text](./PSD.png 'App Screenshot')
+![alt text](./pagefive.png 'App Screenshot')
+![alt text](./pagesix.png 'App Screenshot')
+![alt text](./eight.png 'App Screenshot')
 
 ## Available Scripts
 
