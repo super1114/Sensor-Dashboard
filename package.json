@@ -1,0 +1,68 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^1.0.6",
+    "@ckeditor/ckeditor5-alignment": "^27.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^27.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^24.4.2",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@ckeditor/ckeditor5-theme-lark": "^27.0.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aws-amplify": "^3.3.13",
+    "d3-dsv": "^2.0.0",
+    "draggable": "^4.2.0",
+    "mqtt": "^4.2.6",
+    "node-sass": "4.14.1",
+    "path": "^0.12.7",
+    "query-string": "^6.13.7",
+    "react": "^17.0.1",
+    "react-app-rewired": "^2.1.8",
+    "react-calendar": "^3.3.1",
+    "react-datepicker": "^3.6.0",
+    "react-dom": "^17.0.1",
+    "react-dropdown": "^1.9.2",
+    "react-indiana-drag-scroll": "^2.0.1",
+    "react-motion": "^0.5.2",
+    "react-mqtt-client": "^1.0.0",
+    "react-multi-carousel": "^2.6.2",
+    "react-overflow": "^0.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-switch": "^6.0.0",
+    "react-tooltip": "^4.2.15",
+    "source-map-explorer": "^2.5.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

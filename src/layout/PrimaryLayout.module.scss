@@ -1,0 +1,10 @@
+@import 'variables/colors.scss';
+
+.mainContainer {
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: auto;
+
+  color: $primary-text-color;
+  background-color: $base-background-color;
+}

@@ -1,0 +1,52 @@
+@import 'variables/colors.scss';
+
+.progressBarItem {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  font-family: 'SF UI Display Medium';
+
+  .progressBarWrapper {
+    display: flex;
+    align-items: center;
+
+    &.primary {
+      .progress {
+        background: linear-gradient(
+          90deg,
+          $base-card-background 0%,
+          $primary-blue-color 100%
+        );
+      }
+    }
+
+    &.cyan {
+      .progress {
+        background: linear-gradient(
+          90deg,
+          $base-card-background 0%,
+          $primary-cyan-color 100%
+        );
+        color: $base-card-background;
+      }
+    }
+
+    .progress {
+      height: 100%;
+      border-radius: 20px;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .progressBarText {
+        margin-right: 10px;
+        font-family: 'SF UI Display Medium';
+      }
+    }
+  }
+
+  .progressBarText {
+    margin-left: 5px;
+  }
+}

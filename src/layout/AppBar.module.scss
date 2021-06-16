@@ -1,0 +1,16 @@
+@import 'variables/colors.scss';
+
+.dropDownMenu {
+}
+
+
+.menuClassName {
+  position: absolute;
+  top : 30px;
+  left : 0px;
+  border-radius: 1px;
+  border: 1px solid white;
+  background:  #16103A;
+  min-width: 146px;
+  height: max-content;
+}

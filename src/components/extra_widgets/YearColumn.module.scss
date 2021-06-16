@@ -1,0 +1,13 @@
+@import 'variables/colors.scss';
+
+.yearColumnWrapper {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+
+  .year {
+    display: flex;
+    align-items: center;
+  }
+}

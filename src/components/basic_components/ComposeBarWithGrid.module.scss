@@ -1,0 +1,65 @@
+@import 'variables/colors.scss';
+
+.composeGridBarContainer {
+  display: flex;
+  position: relative;
+
+  .composeGridBarWrapper {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    .composeGridBarRow {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .percentageBar {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .composeGridBarCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+
+    &.blue {
+      background-color: $primary-blue-color;
+    }
+
+    &.cyan {
+      background-color: $primary-cyan-color;
+      color: $base-card-background;
+    }
+
+    &.purple {
+      background-color: $secondary-blue-color;
+    }
+
+    &.green {
+      background-color: $primary-green-color;
+      color: $base-card-background;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
+  .composeGridBarLastColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    .composeGridBarCell {
+      justify-content: flex-start;
+    }
+  }
+
+  svg {
+    position: absolute;
+    z-index: 0;
+  }
+}

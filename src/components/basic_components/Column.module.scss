@@ -1,0 +1,21 @@
+@import 'variables/colors.scss';
+
+.columnWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: 'SF UI Display Medium';
+
+  .columnHeader {
+    height: 80px;
+    box-sizing: border-box;
+  }
+
+  .columnBody {
+    display: flex;
+    flex-direction: column;
+
+    &.bordered {
+      border-left: 2px solid $primary-border-color;
+    }
+  }
+}

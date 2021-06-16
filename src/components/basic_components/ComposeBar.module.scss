@@ -1,0 +1,55 @@
+@import 'variables/colors.scss';
+
+.composeBarContainer {
+  display: flex;
+
+  .composeBarWrapper {
+    display: flex;
+    flex-direction: column;
+
+    .composeBarRow {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .percentageBar {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .composeBarCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.blue {
+      background-color: $primary-blue-color;
+    }
+
+    &.cyan {
+      background-color: $primary-cyan-color;
+      color: $base-card-background;
+    }
+
+    &.purple {
+      background-color: $secondary-blue-color;
+    }
+
+    &.green {
+      background-color: $primary-green-color;
+      color: $base-card-background;
+    }
+  }
+
+  .composeBarLastColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    .composeBarCell {
+      justify-content: flex-start;
+    }
+  }
+}

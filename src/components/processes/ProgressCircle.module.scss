@@ -1,0 +1,35 @@
+@import 'variables/colors.scss';
+
+.progressCircleItem {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  min-width: 60px;
+  
+  .progressCircleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.primary {
+      .progress {
+        background: $primary-blue-color;
+      }
+    }
+
+    &.cyan {
+      .progress {
+        background: $primary-cyan-color;
+      }
+    }
+
+    .progress {
+      border-radius: 100%;
+    }
+  }
+
+  .progressCircleText {
+    margin-left: 5px;
+    font-family: 'SF UI Display Medium';
+  }
+}

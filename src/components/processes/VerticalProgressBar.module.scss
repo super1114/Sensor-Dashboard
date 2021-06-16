@@ -1,0 +1,28 @@
+@import 'variables/colors.scss';
+
+.verticalProgressBarWrapper {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  &.primary {
+    background: linear-gradient(0deg, $base-card-background 0%, $primary-blue-color 100%);
+  }
+
+  &.cyan {
+    background: linear-gradient(0deg, $base-card-background 0%, $primary-cyan-color 100%);
+  }
+
+  .verticalProgress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'SF UI Display Medium';
+
+    &.halfTop {
+      color: $base-card-background;
+    }
+  }
+}
