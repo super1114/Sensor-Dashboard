@@ -4,77 +4,77 @@ import clsx from 'clsx'
 import { wrapABS } from 'helpers/helpers'
 
 const useStyles = makeStyles(theme => ({
-  wrapper: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    fontFamily: theme.typography.mediumFontFamily,
-  },
-  title: {
-    fontFamily: theme.typography.mediumFontFamily,
-    fontSize: 10,
-    lineHeight: '11px',
-    letterSpacing: 0.83,
-    height: 30,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+    wrapper: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      fontFamily: theme.typography.mediumFontFamily,
+    },
+    title: {
+      fontFamily: theme.typography.mediumFontFamily,
+      fontSize: 10,
+      lineHeight: '11px',
+      letterSpacing: 0.83,
+      height: 30,
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
 
-  svgText: {
-    fill: theme.palette.common.primaryText,
-    fontSize: 8,
-    letterSpacing: 0.67,
-  },
+    svgText: {
+      fill: theme.palette.common.primaryText,
+      fontSize: 8,
+      letterSpacing: 0.67,
+    },
 
-  gridPath: {
-    fill: 'transparent',
-    stroke: theme.palette.common.primaryText,
-    strokeWidth: 0.5,
-  },
+    gridPath: {
+      fill: 'transparent',
+      stroke: theme.palette.common.primaryText,
+      strokeWidth: 0.5,
+    },
 
-  gridPathOpacity: {
-    fill: 'transparent',
-    stroke: theme.palette.common.primaryText,
-    strokeOpacity: 0.5,
-    strokeWidth: 0.3,
-  },
+    gridPathOpacity: {
+      fill: 'transparent',
+      stroke: theme.palette.common.primaryText,
+      strokeOpacity: 0.5,
+      strokeWidth: 0.3,
+    },
 
-  rangePath: {
-    fill: 'transparent',
-    strokeWidth: 1,
-    stroke: theme.palette.common.thirdBlue,
-  },
-  outerCircleGreen: {
-    stroke: theme.palette.common.secondaryGreen,
-    strokeWidth: 2,
-    fill: theme.palette.common.secondaryGreen,
-    opacity: 0.5,
-  },
-  innerCircleGreen: {
-    fill: theme.palette.common.secondaryGreen,
-  },
+    rangePath: {
+      fill: 'transparent',
+      strokeWidth: 1,
+      stroke: theme.palette.common.thirdBlue,
+    },
+    outerCircleGreen: {
+      stroke: theme.palette.common.secondaryGreen,
+      strokeWidth: 2,
+      fill: theme.palette.common.secondaryGreen,
+      opacity: 0.5,
+    },
+    innerCircleGreen: {
+      fill: theme.palette.common.secondaryGreen,
+    },
 
-  outerCircleRed: {
-    stroke: theme.palette.common.primaryRed,
-    strokeWidth: 2,
-    fill: theme.palette.common.primaryRed,
-    opacity: 0.5,
-  },
-  innerCircleRed: {
-    fill: theme.palette.common.primaryRed,
-  },
+    outerCircleRed: {
+      stroke: theme.palette.common.primaryRed,
+      strokeWidth: 2,
+      fill: theme.palette.common.primaryRed,
+      opacity: 0.5,
+    },
+    innerCircleRed: {
+      fill: theme.palette.common.primaryRed,
+    },
 
-  greenText: {
-    fontSize: 6,
-    fontFamily: theme.typography.mediumFontFamily,
-    fill: theme.palette.common.secondaryGreen,
-  },
-  redText: {
-    fontSize: 6,
-    fontFamily: theme.typography.mediumFontFamily,
-    fill: theme.palette.common.primaryRed,
-  },
+    greenText: {
+      fontSize: 6,
+      fontFamily: theme.typography.mediumFontFamily,
+      fill: theme.palette.common.secondaryGreen,
+    },
+    redText: {
+      fontSize: 6,
+      fontFamily: theme.typography.mediumFontFamily,
+      fill: theme.palette.common.primaryRed,
+    },
 }))
 const YearlyPriceTable = ({ height = 207, width = 205, data = [] }) => {
   const classes = useStyles()
